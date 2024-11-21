@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/radius_row"
+    android:orientation="vertical"
+    android:backgroundTint="@color/primary"
+    android:padding="16dp">
+
+    <!-- Course detail info
+
+        name check
+        day of week check
+        start time check
+        price check
+        duration check
+        type check
+        capacity check
+        date check
+        teacher check
+        comments check
+        description check
+    -->
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Course Section 1"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radius_row"
+        android:orientation="horizontal"
+        android:backgroundTint="@color/primary"
+       >
+        <TextView
+            android:id="@+id/txtTeacher"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:text="Teacher: Justin" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/txtType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Type: Yoga Aerobic"
+            android:layout_marginVertical="5dp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radius_row"
+        android:orientation="horizontal"
+        android:backgroundTint="@color/primary"
+        >
+        <TextView
+            android:id="@+id/txtDayOfWeek"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="Day of week: Tuesday" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/txtCapacity"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="Capacity: 60 slots" />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Date: 20/11/2023" />
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radius_row"
+        android:orientation="horizontal"
+        android:backgroundTint="@color/primary"
+        >
+        <TextView
+            android:id="@+id/txtStartTime"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="Start at: Tuesday" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/txtDuration"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="Duration: 60 mins" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Description: This is a yoga course" />
+
+    <TextView
+        android:id="@+id/txtComment"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Description: This is a yoga course" />
+
+
+    <TextView
+        android:id="@+id/txtPrice"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:layout_gravity="end"
+        android:layout_height="wrap_content"
+        android:text="Price: 60$" />
+
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/main_bg"
+        android:layout_height="wrap_content"
+        android:text="Close" />
+</LinearLayout>

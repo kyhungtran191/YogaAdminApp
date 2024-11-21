@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_bg"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:background="@color/primary">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:contentDescription="Plus Icon"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin yoga app"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/txtBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="30dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="#A68EF8"
+        android:background="@drawable/radius_row"
+        >
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="5dp"
+            android:paddingVertical="20dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="#c3b1ff"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yoga Section 1"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:backgroundTint="#c3b1ff"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:id="@+id/txtType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Type: Yaga session 1 "
+                    android:layout_gravity="start"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+                <TextView
+                    android:id="@+id/txtPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="60$"
+                    android:layout_gravity="start"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:backgroundTint="#c3b1ff"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:id="@+id/txtDayOfWeek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tuesday"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/txtStartTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Start at: 4 am"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/txtDuration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Duration: 60 minutes"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Duration: 60 minutes Duration: 60 minutesDuration: 60 minutesDuration: 60 minutesDuration: 60 minutes
+Duration: 60 minutes"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="20dp"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:background="@color/primary">
+
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class Instance"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/addNewClassInstance"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/add"
+            android:contentDescription="Add"
+            android:background="@drawable/circle_button"
+            android:layout_marginEnd="8dp"
+            android:scaleType="centerInside" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvClasses"
+        android:layout_width="match_parent"
+        android:layout_height="315dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+</LinearLayout>

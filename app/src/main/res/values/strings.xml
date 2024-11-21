@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">YogaAdminApp</string>
+    <string-array name="categories">
+        <item>Flow Yoga</item>
+        <item>Aerial Yoga</item>
+        <item>Family Yoga</item>
+    </string-array>
+
+    <string-array name="teachers">
+        <item>David</item>
+        <item>Justin</item>
+        <item>Marry</item>
+        <item>Tom</item>
+        <item>Yin</item>
+    </string-array>
+
+    <string-array name="days">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+</resources>

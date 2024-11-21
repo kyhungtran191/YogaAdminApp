@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/radius_row"
+    android:padding="16dp"
+    android:layout_margin="8dp"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20/11/2024"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/txtTeacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teacher: John Doe"
+            android:textSize="14sp"
+            android:textColor="#666666" />
+        <TextView
+            android:id="@+id/txtComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="description 123 123 123 12312 312 12 321312312312321213123"
+            android:textSize="12sp"
+            android:textColor="#454343"
+            android:layout_marginTop="2dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp">
+
+        <ImageButton
+            android:id="@+id/editClassBtn"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/edit"
+            android:contentDescription="Edit"
+            android:background="@drawable/circle_button"
+            android:layout_marginEnd="8dp"
+            android:scaleType="centerInside" />
+
+        <ImageButton
+            android:id="@+id/deleteClassBtn"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/delete"
+            android:contentDescription="Edit"
+            android:background="@drawable/circle_button"
+            android:layout_marginEnd="8dp"
+            android:scaleType="centerInside" />
+
+    </LinearLayout>
+
+</LinearLayout>
